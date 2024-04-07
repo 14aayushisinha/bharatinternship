@@ -1,0 +1,56 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.container:hover{
+    border:3px double black;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+}
+#username:hover{
+    background-color: rgb(147, 14, 36);
+    font-family: 'Courier New', Courier, monospace;
+}
+#password:hover{
+    background-color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#email:hover{
+    background-color: rgb(125, 173, 125);
+}
+h2{
+    color:rgb(81, 21, 194);
+    font-size: x-large;
+}
